@@ -1,0 +1,53 @@
+section#post {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+section#post article {
+    background: #F9F9F9;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section#post article header {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+section#post article header .title {
+    display: flex;
+    flex-direction: column;
+}
+
+section#post article header strong {
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+section#post article header span {
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+section#post article > img {
+    width: 100%;
+}
+
+section#post article footer {
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 20px;
+    word-wrap: break-word;
+    text-align: justify;
+}

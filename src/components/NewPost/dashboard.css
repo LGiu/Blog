@@ -1,0 +1,43 @@
+div#dashboard {
+    width: 100%;
+    max-width: 980px;
+    margin: 40px auto;
+    padding: 0 30px;
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+div#dashboard a {
+    margin-top: 30px;
+    width: 12%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #272727;
+    border: 1px solid #272727;
+    color: white;
+    text-decoration: none;
+}
+
+div#dashboard button {
+    margin-top: 30px;
+    width: 10%;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #272727;
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: 300;
+    background-color: #272727;
+    color: white;
+    text-decoration: none;
+
+}

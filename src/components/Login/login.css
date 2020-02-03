@@ -1,0 +1,61 @@
+form#login {
+    width: 100%;
+    max-width: 680px;
+    margin: 30px auto 0;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+form#login input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #F9F9F9;
+    padding: 0 20px;
+}
+
+form#login button{
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 4px;
+    background: #272727;
+    color: white;
+    border: 1px solid #272727;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form#login button{
+    margin: 20px 0 15px;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 4px;
+    background: #272727;
+    color: white;
+    border: 1px solid #272727;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form#login a{
+    text-align: center;
+    text-decoration: none;
+    color: #272727;
+}
+
+form#login .erro{
+    text-align: center;
+    color: #ff2528;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}

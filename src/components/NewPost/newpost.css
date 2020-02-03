@@ -1,0 +1,97 @@
+header#voltar {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 10px;
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+header#voltar a {
+    margin: 30px 0 20px;
+    width: 12%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #272727;
+    border: 1px solid #272727;
+    color: white;
+    text-decoration: none;
+}
+
+form#newpost {
+    width: 100%;
+    max-width: 680px;
+    margin: 30px auto 0;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto Light;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form#newpost input {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #F9F9F9;
+    padding: 0 20px;
+}
+
+form#newpost textarea {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px solid #F9F9F9;
+    padding: 5px 20px;
+    font-family: Roboto Light;
+    font-style: normal;
+    font-size: 18px;;
+}
+
+form#newpost button {
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 4px;
+    background: #272727;
+    color: white;
+    border: 1px solid #272727;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form#newpost button {
+    margin: 20px 0 15px;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 4px;
+    background: #272727;
+    color: white;
+    border: 1px solid #272727;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form#newpost a {
+    text-align: center;
+    text-decoration: none;
+    color: #272727;
+}
+
+form#newpost .erro {
+    text-align: center;
+    color: #ff2528;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
